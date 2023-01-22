@@ -1,4 +1,5 @@
 # Analytics-Vidya-Jobhathon-CLTV-Prediction
+
 It was a Jobhackathon in which we were asked to predict Customer life time value for identifying most potential customer for an insurance company.
 
 ### Problem Statement
@@ -25,9 +26,12 @@ Distribution of response variable CLTV :-
 
 CLTV refers to customer's life time value which is annoted by VahanBima organization. More the value , better is the customer.
 
+We see data is right skewed (positively skewed) with most density concentrated between [24828,103440].
+
+
 
 ### Exploratory Data Analysis :-
-
+Please refer EDA.html for detailed Exploratory analysis report.
 Example :-
 1. Income variable
 
@@ -58,7 +62,8 @@ If we compare the means for different categories then we can see that for variab
 ![image](https://user-images.githubusercontent.com/58731031/213914516-b68a48c0-621e-4837-86dc-319745022597.png)
 
 
-Used automl package and tried out 3 different algorithms , LightGBM, XGBoost & Catboost & LightGBM gave me best score of 15.86% (coefficient of determination)(rank 70).
+Used automl package and tried out 3 different algorithms , LightGBM, XGBoost & Catboost. 
+LightGBM gave me best score of 15.86% (coefficient of determination)(rank 70).
 Its a pretty low value but the fact that there are no reasonable associations between cltv and the data we have this still holds a reasonable good model.
 
 
