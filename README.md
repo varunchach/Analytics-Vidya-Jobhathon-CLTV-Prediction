@@ -31,7 +31,9 @@ We see data is right skewed (positively skewed) with most density concentrated b
 
 
 ### Exploratory Data Analysis :-
+
 Please refer EDA.html for detailed Exploratory analysis report.
+
 Example :-
 1. Income variable
 
